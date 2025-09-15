@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  /* === Breakpoints === */
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 976px;
+  --breakpoint-xl: 1440px;
+
+  /* === Color Palette === */
+  --color-brightRed: hsl(12, 88%, 59%);
+  --color-brightRedLight: hsl(12, 88%, 69%);
+  --color-brightRedSupLight: hsl(12, 88%, 95%);
+  --color-darkBlue: hsl(228, 39%, 23%);
+  --color-darkGrayishBlue: hsl(227, 12%, 61%);
+  --color-veryDarkBlue: hsl(233, 12%, 13%);
+  --color-veryPaleRed: hsl(0, 0%, 98%);
+  --color-veryLightGray: hsl(0, 0%, 98%);
+}
+
+@layer components {
+  .start-btn {
+    @apply cursor-pointer py-2.5 px-5.5 
+           bg-brightRed text-veryLightGray 
+           rounded-full transition-colors 
+           hover:bg-brightRedLight;
+  }
+}
+
+body {
+  background-image: url("imgs/bg-tablet-pattern.svg");
+  background-repeat: no-repeat;
+  background-size: 900px;
+  background-position: 90% -20%;
+}
