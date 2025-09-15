@@ -6,7 +6,7 @@ It’s a fully responsive landing page with a modern UI, smooth layout, and reus
 ---
 
 ## 🌐 Live Demo
-🔗 [View Website on Vercel](https://landing-page-tailwind.vercel.app)
+🔗 [View Website on Vercel](https://landing-page-tailwind-lyart.vercel.app/)
 
 ---
 
